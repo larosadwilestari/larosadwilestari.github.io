@@ -18,7 +18,7 @@ $ubah=$koneksi->query("update artikel set judul_artikel='$judul_artikel', isi_ar
 
 if($ubah==true){
 
-    header("location:index.php?pesan=editBerhasil");
+    header("location:tampil-artikel.php?pesan=editBerhasil");
 } else{
     echo "Error";
 }

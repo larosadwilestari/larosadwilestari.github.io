@@ -8,9 +8,9 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div style="text-align:justify">
-					<h3>
+					<h5>
 						Raih minat dan bakatmu di SMKS Yapim Taruna, Berbagai Kegiatan dapat Dilakukan, Salurkan bakat kalian. Begitu banyak bidang yang dapat kalian pilih di sekolah SMKS Yapim Taruna, Dari berbagai jurusan sampai beragam ekstrakulikuler yang tersedia. Berikut adalah kumpulan kegiatan yang ada di SMKS 1 Yapim Simpang Kawat.
-					</h3>	
+					</h5>	
 					</div>
 				</div>
 			</div>

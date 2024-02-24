@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-md-12">
         <div style="text-align:center;">
-          <img src="foto/W2.jpg" width="100%" align="center">
+          <img src="foto/w2.jpg" width="100%" align="center">
         </div>
       </div>
     </div>

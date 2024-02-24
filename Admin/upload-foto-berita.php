@@ -10,7 +10,7 @@ if ($_FILES['upload']['error'] === UPLOAD_ERR_OK) {
 
 
   $destination='img/berita/' .$fileName;
-
+  
     if (move_uploaded_file($file_tmp, $destination)) {
       $url = 'img/berita/' .$fileName;
       echo '<script type ="text/javascript">window.parent.CKEDITOR.tools.callFunction('.$_GET['CKEditorFuncNum'] . ' , "' . $url . '"); </script>';

@@ -1,10 +1,9 @@
+<?php include "header.php"?>
 <div class="container">
     <div class="row">
         <div class="col-md-12">
         <h1>Artikel</h1>
            
-
-
             <?php 
 
             if(@$_GET['pesan']=="hapusBerhasil"){
@@ -31,7 +30,7 @@
 
             }
 
-            ?>
+            ?> 
 
 
         <table id="dataTables" class="table table-bordered">
@@ -45,7 +44,7 @@
                 </th>
             </tr> 
         </thead> 
-        <tbody>
+        <tbody> 
         <?php
 
         include "../koneksi.php";
@@ -55,7 +54,8 @@
         ?>
 
             <tr>
-                <td><h2><b><?php echo $row['judul_artikel']?></b></h2><h6><i><?php echo $row['last_upload']?></i></h6>
+                <td><h2><b><?php echo $row['judul_artikel']?></b></h2>
+                    <h6><i><?php echo $row['last_upload']?></i></h6>
                 <br>
                 <?php echo $row['isi_artikel']?>
                </td>
@@ -80,3 +80,5 @@
         </div>
     </div>
 </div>
+
+<?php include "footer.php"?>

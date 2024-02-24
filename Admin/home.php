@@ -23,12 +23,12 @@
 				</div>
 				<div class="form-group">
 					<label for="isi_artikel">Isi Artikel</label>
-					<textarea name="isi_artikel" id="editor" class="form-control ckeditor"><p>Isi Artikel:</p></textarea>
+					<textarea name="isi_artikel" id="editor" class="form-control ckeditor"><p></p></textarea>
 					<script>
 					CKEDITOR.replace( 'editor', { 
 					removePlugins: 'easyimage',
 					removeButtons: 'PasteFromWord',
-
+						
 					filebrowserUploadUrl: 'upload-foto-berita.php',
 					filebrowserUploadMethod: 'form'
 					});
@@ -46,4 +46,5 @@
 <br>
 <br>
 
-<?php include "tampil-artikel.php"?>
+
+

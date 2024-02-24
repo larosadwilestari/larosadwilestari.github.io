@@ -47,7 +47,7 @@
         <table id="dataTables" class="table table-bordered">
         <thead>
             <tr>
-                <th>Nama</th><th>No Ijazah</th><th>Jurusan</th>
+                <th>Nama</th><th>No Ijazah</th><th>Jenis Kelamin</th><th>Jurusan</th><th>Asal Sekolah</th><th>Tahun Lulus</th><th>Alamat</th>
                 <th>
                     <a href="../input-pendaftaran.php">
                         <button class="btn btn-info glyphicon glyphicon-plus"></button>
@@ -63,11 +63,15 @@
 
         while($row= $sql->fetch_assoc()){
         ?>
-
+                       
             <tr>
                 <td><?php echo $row['nama']?></td>
                 <td><?php echo $row['no_ijazah']?></td>
+                <td><?php echo $row['jenis_kelamin']?></td>
                 <td><?php echo $row['jurusan']?></td>
+                <td><?php echo $row['asal_sekolah']?></td>
+                <td><?php echo $row['tahun_lulus']?></td>
+                <td><?php echo $row['alamat']?></td>
                 <td>
                 <a href="hapus-pendaftaran.php?id=<?php echo $row['siswa_id']?>" onclick=" return confirm('Anda yakin menghapus data?')">
                     <button class="btn btn-xs btn-warning glyphicon glyphicon-remove"></button>

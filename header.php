@@ -44,11 +44,11 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-12">
-				<h1>
+			<div class="col-md-12">
+				<h4>
 					<img src="foto/SIMPANG KAWAT.png" width="100px" height="100px">
 					<font color="#3634f6b"><b>SMKS 1 Yapim Simpang Kawat</b></font>
-				</h1>
+				</h4>
 			</div>
 		</div>
 	</div>
@@ -57,13 +57,12 @@
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="glyphicon glyphicon-menu-hamburger"></span>
 					<span class="sr-only">Toggle Nav</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.php"> SMKS 1 Yapim</a>
+					<a class="navbar-brand" href="index.php">SMKS 1 Yapim</a>
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
@@ -89,8 +88,9 @@
 								<li><a href="AV.php">Teknik Audio Video</a></li> 
 							</ul>
 						</li>
-						<li><a href="tampil-artikel.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Guru</a>
+						<li><a href="Admin/tampil-artikel-publik.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Artikel</a>
 						</li>
+
 						<li><a href="Pendaftaran.php"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Pendaftaran</a>
 						</li>
 						<li>
@@ -103,14 +103,11 @@
 							<span class="glyphicon glyphicon-user" aria-hidden="true"></span> User <span class="caret"></span></a>
 							<ul class="dropdown-menu">
 							<li><a href="login.php">Login Admin</a></li>
-							<li><a href="login-guru.php">Login Guru</a></li>
 							</ul>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</nav>	
-		<h1>
-			<font color="#3634f6b" align="center"><b>Selamat datang di website kami</b></font>
-		</h1>
+		
 		<!-- Akhir script Navbar -->

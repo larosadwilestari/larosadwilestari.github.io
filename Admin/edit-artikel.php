@@ -2,7 +2,7 @@
   session_start();
   if (empty($_SESSION['user_id'])){
     header("location:../login.php");
-  }
+  } 
 ?>
 <?php include "header.php"; ?>
     <div class="container">
@@ -22,9 +22,10 @@
                     <input type="text" class="form-control" name="judul_artikel" value="<?php echo $row['judul_artikel']?>">
                 </div>
                 <div class="form-group">
-                    <label for="isi_artikel">Isi Artikel</label>
-                    <textarea name="isi_artikel" id="editor" 
-                    value="<?php echo $row['isi_artikel']?>"> 
+                    <label for="isi_artikel">Isi Artikel
+                    </label>
+                    <textarea name="isi_artikel" id="editor">
+                        <?php echo $row['isi_artikel']?>
                     </textarea>
                     <script>
                    CKEDITOR.replace( 'editor', { 
@@ -42,7 +43,7 @@
         </div>
     </div>
 </div>
-<br>
+<br> 
 <br>
 
 <?php include "footer.php";?>

@@ -46,10 +46,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h1>
+				<h3>
 					<img src="foto/SIMPANG KAWAT.png" width="100px" height="100px">
 					<font color="#3634f6b"><b>SMKS 1 Yapim Simpang Kawat</b></font>
-				</h1>
+				</h3>
 			</div>
 		</div>
 	</div>
@@ -63,7 +63,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">SMKS 1 Yapim</a>
+					<a class="navbar-brand" href="index.php">SMKS 1 Yapim</a>
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
@@ -79,6 +79,7 @@
 							<li><a href="tampil-pendaftaran.php"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Calon Siswa</a>
 							</li>
 							<li><a href="tampil-contact-us.php"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Kritik dan Saran</a>
+								<li><a href="tampil-artikel.php"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>Artikel</a></li>
 							</li>
 						</li>
 					</ul>
@@ -92,7 +93,4 @@
 				</div>
 			</div>
 		</nav>	
-		<h1>
-			<font color="#3634f6b" align="center"><b>Selamat datang Admin</b></font>
-		</h1>
 		<!-- Akhir script Navbar -->

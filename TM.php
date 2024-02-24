@@ -2,7 +2,7 @@
 <?php include "header.php"; ?>
 
 	<div style="text-align:center;">
-		<img src="foto/IMG_7744++.jpg" width ="1000px" align="center"> <br><br>
+		<img src="foto/IMG_7744++.jpg" width ="100%" align="center"> <br><br>
 	</div>
 	<br>
 	<br>
